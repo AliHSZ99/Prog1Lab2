@@ -16,8 +16,8 @@ public class Time{
 		seconds = seconds%60;
 
 		System.out.println("The time is " +
-							timePattern.format(minutes) + ":" +
-							timePattern.format(seconds));
+				timePattern.format(minutes) + ":" +
+				timePattern.format(seconds));
 
 	}
 }
