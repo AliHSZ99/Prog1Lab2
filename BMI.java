@@ -14,7 +14,7 @@ public class BMI{
 		System.out.println("Your height in meters is " + (height*0.3048)); //feet to meter
 
 		System.out.println("\nYour BMI is currently " + 
-								(weight*0.454/((Math.pow(height*0.3048, 2)))));
+				(weight*0.454/((Math.pow(height*0.3048, 2)))));
 
 
 	}
