@@ -9,6 +9,6 @@ public class Number54{
 		double number = scan.nextDouble();
 		
 		System.out.println(number + " to the power of 3 is " +
-							Math.pow(number, 3));
+				   Math.pow(number, 3));
 	}
 }
