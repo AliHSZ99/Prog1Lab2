@@ -1,12 +1,9 @@
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Time{
 	public static void main(String[] args){
 
 		Scanner scan = new Scanner(System.in);
-
-		DecimalFormat timePattern = new DecimalFormat("00");
 
 		System.out.print("Enter the number of seconds you want to convert to minutes > ");
 		int seconds = scan.nextInt();
@@ -16,8 +13,8 @@ public class Time{
 		seconds = seconds%60;
 
 		System.out.println("The time is " +
-				timePattern.format(minutes) + ":" +
-				timePattern.format(seconds));
+				   minutes + ":" +
+				   seconds);
 
 	}
 }
