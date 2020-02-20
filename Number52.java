@@ -12,8 +12,8 @@ public class Number52{
 		String wordLower = word.toLowerCase();
 
 		System.out.println("\n\nThe word is " + word + "." +
-							"\nThe word in upper case letters becomes " + wordUpper + "." +
-							"\nThe word in lower case letters becomes " + wordLower + ".");
+				    "\nThe word in upper case letters becomes " + wordUpper + "." +
+				    "\nThe word in lower case letters becomes " + wordLower + ".");
 
 	}
 }
