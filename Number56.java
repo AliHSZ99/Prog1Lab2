@@ -15,6 +15,6 @@ public class Number56{
 		String lastName = fullName.substring(space + 1);
 
 		System.out.println("\nYour first name is " + firstName + 
-							"\nYour last name is " + lastName );
+				    "\nYour last name is " + lastName );
 	}
 }
