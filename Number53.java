@@ -9,7 +9,7 @@ public class Number53{
 		int number2 = random.nextInt(101);
 
 		System.out.println("The random numbers are " + number1 +
-							" and " + number2);
+				    " and " + number2);
 
 		System.out.println("\nThe smallest number is: " + Math.min(number1, number2));
 
