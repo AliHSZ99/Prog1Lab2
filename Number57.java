@@ -21,7 +21,7 @@ public class Number57{
 		double nickels1 = nickels * 0.05;
 
 		System.out.println("The total amount of money is " + 
-							moneyPattern.format(quarters1 + dimes1 + nickels1));
+				    moneyPattern.format(quarters1 + dimes1 + nickels1));
 
 	}
 }
