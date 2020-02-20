@@ -11,6 +11,6 @@ public class Temperature{
 		int temp3 = scan.nextInt();
 
 		System.out.println("The average temperature in the last three days is " +
-								((temp1 + temp2 + temp3)/3));
+				    ((temp1 + temp2 + temp3)/3));
 	}
 } 
